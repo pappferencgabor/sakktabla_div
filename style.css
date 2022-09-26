@@ -1,0 +1,29 @@
+.betu {
+    height: 20px;
+    width: 75px;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+}
+.szam {
+    height: 75px;
+    width: 20px;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+}
+.mezo{
+    border: 1px solid black;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+}
+.sor {
+    display: inline-block;
+}
+.paratlan:nth-child(odd) {
+    background-color: black;
+}
+.paros:nth-child(even) {
+    background-color: black;
+}
