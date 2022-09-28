@@ -1,15 +1,42 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+#tabla {
+    margin: auto;
+    width: 50%;
+}
+.betu p {
+    margin-top: 5px;
+}
 .betu {
-    height: 20px;
+    height: 30px;
     width: 75px;
     border: 1px solid black;
     text-align: center;
     display: inline-block;
+    margin-bottom: 10px;
+}
+.szam p {
+    margin-top: 25px;
 }
 .szam {
     height: 75px;
-    width: 20px;
+    width: 30px;
     border: 1px solid black;
     text-align: center;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.betu, .szam {
+    background-color: darkred;
+    color: white;
+}
+#semmi {
+    width:30px; 
+    height:30px; 
+    margin-right: 5px; 
+    border: none;
     display: inline-block;
 }
 .mezo{
@@ -18,12 +45,19 @@
     width: 75px;
     height: 75px;
 }
-.sor {
-    display: inline-block;
+img {
+    width: 75px;
+    height: 75px;
 }
-.paratlan:nth-child(odd) {
-    background-color: black;
+.paratlan .mezo:nth-child(even) {
+    background-color: rgb(248, 162, 1);
 }
-.paros:nth-child(even) {
-    background-color: black;
+.paratlan .mezo:nth-child(odd) {
+    background-color: rgb(95, 24, 24);
+}
+.paros .mezo:nth-child(odd) {
+    background-color: rgb(248, 162, 1);
+}
+.paros .mezo:nth-child(2n) {
+    background-color: rgb(95, 24, 24);
 }
